@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import wild1 from '../../images/wild1.jpg';
-import wild2 from '../../images/wild2.jpg';
 import wild3 from '../../images/wild3.jpg';
+import wild4 from '../../images/wild4.jpg';
+import Service from './Service/Service';
+import './Home.css'
 
 const Home = () => {
+  const [services, setServices] = useState([]);
+  useEffect(()=> {
+    fetch('data.json')
+    .then(res => res.json())
+    .then(data => setServices(data))
+  }, [])
+
+
+
     return (
         <div>
             <Carousel>
@@ -22,7 +33,7 @@ const Home = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={wild2}
+      src={wild4}
       alt="Second slide"
     />
 
@@ -44,6 +55,12 @@ const Home = () => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+<div id='services'>
+  {services.map(service => <Service
+  key={service.id}
+  service={service}
+  ></Service> )}
+</div>
         </div>
     );
 };
