@@ -1,0 +1,18 @@
+#form-container {
+    border: 1px solid lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#orLine {
+    height: 1px;
+}
+
+#orDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
