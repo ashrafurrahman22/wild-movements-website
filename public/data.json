@@ -1,5 +1,5 @@
 [
-    { "id": "1", "name": "full day Photography", "img" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg" },
-    { "id": "1", "name": "full day Photography", "img" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg" },
-    { "id": "1", "name": "full day Photography", "img" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg" }
+    { "id": "1", "name": "Full day Photography", "price": "200", "img" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg" },
+    { "id": "1", "name": "Half day Photography", "price": "120", "img" : "https://static.boredpanda.com/blog/wp-content/uploads/2015/07/animals-with-camera-helping-photographers-7__880.jpg" },
+    { "id": "1", "name": "Full and Extra day Photography", "price": "230", "img" : "https://i.pinimg.com/originals/8e/6b/c9/8e6bc9baba7317c7d2117aef434ea3fc.jpg" }
 ]

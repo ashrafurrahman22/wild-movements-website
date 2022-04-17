@@ -26,8 +26,8 @@ const Home = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Zebra</h3>
+      <p>Zebras are African equines with distinctive black-and-white striped coats.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -38,8 +38,8 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Mongoose</h3>
+      <p>A mongoose is a small terrestrial carnivorous mammal belonging to the family Herpestidae.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -50,17 +50,20 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Elephant</h3>
+      <p>Elephants are the largest existing land animals.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-<div id='services'>
+      <div id="service">
+        <h3 className='text-center my-2'>Our Services</h3>
+  <div id='services'>
   {services.map(service => <Service
   key={service.id}
   service={service}
   ></Service> )}
 </div>
+      </div>
         </div>
     );
 };
