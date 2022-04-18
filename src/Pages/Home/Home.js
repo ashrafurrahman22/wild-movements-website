@@ -68,26 +68,26 @@ const Home = () => {
 
       </div>
           <h3 className='text-center mt-5'>Wild Photos With Introduction</h3>
-          <div className='d-flex align-items-center p-4'>
-          <div>
-            <img id='animals' src={cheetah} alt="" />
+          <div className='d-lg-flex align-items-center p-4'>
+          <div className='w-100'>
+            <img className='img-fluid' id='animals' src={cheetah} alt="" />
           </div>
           <div className='p-5'>
             <h2 className='text-center'>Cheetah</h2>
             <p>The cheetah is a large cat native to Africa and central Iran. It is the fastest land animal, estimated to be capable of running at 80 to 128 km/h (50 to 80 mph) with the fastest reliably recorded speeds being 93 and 98 km/h (58 and 61 mph), and as such has several adaptations for speed, including a light build, long thin legs and a long tail. </p>
           </div> </div>
-          <div className='d-flex align-items-center p-4'>
+          <div className='d-lg-flex align-items-center p-4'>
           <div className='p-5'>
             <h2 className='text-center'>Beer</h2>
             <p>Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere. </p>
           </div>
-          <div>
-            <img id='animals' src={beer} alt="" />
+          <div className='w-100'>
+            <img className='img-fluid' id='animals' src={beer} alt="" />
           </div>
            </div>
-          <div className='d-flex align-items-center p-4'>
-          <div>
-            <img id='animals' src={elephant} alt="" />
+          <div className='d-lg-flex align-items-center p-4'>
+          <div className='w-100'>
+            <img className='img-fluid' id='animals' src={elephant} alt="" />
           </div>
           <div className='p-5'>
             <h2 className='text-center'>Elephant</h2>
