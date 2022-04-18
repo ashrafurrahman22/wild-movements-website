@@ -1,10 +1,10 @@
 import React from 'react';
+import pic from '../../images/pagenotfound.jpg';
 
 const PageNotFound = () => {
     return (
-        <div>
-            <h1>404</h1>
-            <h3>Page Not Found</h3>
+        <div className='vh-100'>
+            <img className='img-fluid' src={pic} alt="" />
         </div>
     );
 };
