@@ -1,0 +1,14 @@
+.about-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+}
+
+#mypic {
+    border-radius: 100px;
+}
+
+#goal-div {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}

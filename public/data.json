@@ -1,5 +1,5 @@
 [
-    { "id": "1", "name": "Full day Photography", "price": "200", "img" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg" },
-    { "id": "1", "name": "Half day Photography", "price": "120", "img" : "https://static.boredpanda.com/blog/wp-content/uploads/2015/07/animals-with-camera-helping-photographers-7__880.jpg" },
-    { "id": "1", "name": "Full and Extra day Photography", "price": "230", "img" : "https://i.pinimg.com/originals/8e/6b/c9/8e6bc9baba7317c7d2117aef434ea3fc.jpg" }
+    { "id": "1", "name": "Frans Lanting", "price": "200", "img" : "https://iso.500px.com/wp-content/uploads/2015/03/cover_2048.jpg", "description" : "A pair of Great Photographers Frans Lanting, Chris Eckstrom. Almost achieved and appeared in all leading magazines and grand awards. They are considered to be one of the great photographers of our time." },
+    { "id": "1", "name": "Tom Hadley", "price": "270", "img" : "https://static.boredpanda.com/blog/wp-content/uploads/2015/07/animals-with-camera-helping-photographers-7__880.jpg", "description" : "A Fantastic Photographer who works with many NGOs’s , very passionate about wildlife photography. His Pictures of wild cats are very captivating. He alos does workshops and tuition’s like many other wildlife Photographers here."  },
+    { "id": "1", "name": "Roeselien Raimond", "price": "230", "img" : "https://i.pinimg.com/originals/8e/6b/c9/8e6bc9baba7317c7d2117aef434ea3fc.jpg", "description" : "Foxes at their very best under the best lighting conditions with a best photographer. Meet Roeselien who has pictured these light drawings of foxes and many other wild animals  A Complete Portfolio definitely worth taking a look." }
 ]
